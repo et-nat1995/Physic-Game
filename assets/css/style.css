@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial,"Helvetica Neu", Helvetica, sans-serif;
+    font-size: 15px;
+    color: #4aaaa5;
+    background: white;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.head{
+    text-align: center;
+    border: 1px solid grey;
+    background: #dddddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.main-section{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}

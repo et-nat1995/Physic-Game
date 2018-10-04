@@ -47,8 +47,8 @@ document.onkeyup = function(event){
     }
 
     if(enteredKey !== randomLetter){
-        guessedLetters.push(enteredKey);
         console.log(guessedLetters);
+        guessedLetters.push(enteredKey);
     }
 
     if(guessesLeft === 0)
