@@ -27,10 +27,12 @@ function renderGame(){
     var $wins = document.querySelector(".wins");
     var $loses = document.querySelector(".loses");
     var $guessesLeft = document.querySelector(".guessesLeft");
+    var $guessedLetter = document.querySelector(".guessesLetters");
 
     $wins.textContent = "Wins: "+ wins;
     $loses.textContent = "Loses: " + losses;
     $guessesLeft.textContent = "Guesses Left: " + guessesLeft;
+    $guessedLetter.textContent = "Guessed Letters:" + guessedLetters;
 }
 // starts the game by setting a random letter to allow the onkeyup to have a letter to work with.
 setRandomLetter();
